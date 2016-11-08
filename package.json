@@ -1,0 +1,14 @@
+{
+  "name": "fractal-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Matthew Geiger",
+  "dependencies": {
+    "d3": "^4.3.0"
+  },
+  "devDependencies": {
+
+  }
+}
