@@ -11,10 +11,10 @@
    *
    */
 
-  const yDelta = 25
+  const yDelta = 50
   const num_iterations = 8
   const initial_coords = {
-    x1 : 0, y1 : 20, x2 : 1000, y2 : 20
+    x1 : 50, y1 : 20, x2 : 1200, y2 : 20
   }
 
   function transform (coords, shift_right=false, shift_down=true) {
@@ -40,9 +40,9 @@
   function cantor (steps=num_iterations, coords=initial_coords) {
     if (steps <= 0) return
     steps--
+    make_line(coords)
     cantor(steps, transform(coords, true))
     cantor(steps, transform(coords, false))
-    make_line(coords)
   }
 
 </script>
