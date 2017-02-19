@@ -1,10 +1,10 @@
-  /* Cantor Set
-   *
-   * Input: Line segment
-   *  f_1(X): (1/3)X
-   *  f_2(X): (1/3)X + (2/3)X[0]
-   *
-   */
+/* Cantor Set
+ *
+ * Input: Line segment
+ *  f_1(X): (1/3)X
+ *  f_2(X): (1/3)X + (2/3)X[0]
+ *
+ */
 
 const yDelta = 50
 const num_iterations = 8
