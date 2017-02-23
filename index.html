@@ -1,17 +1,20 @@
 <html>
 <head>
-<link href="cantor.css" rel="stylesheet">
-
+<link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-  <svg class="cantor">  
-  </svg>
+  <div>
+  <p>WARNING: prone to memory leaks, use at your own risk</p>
+  <span>Iterations: </span><input class="iterations" value=7 />
+  <button class='start' onclick='start()'>Start</button>
+  <button class='stop' onclick='stop()' disabled>Stop</button>
+  </div>
+  <svg></svg>
 </body>
-
 
 <footer>
 <script src="https://d3js.org/d3.v4.js"></script>
-<script src="cantor.js"></script>
+<script src="fractal-gen.js"></script>
 </footer>
 </html>
